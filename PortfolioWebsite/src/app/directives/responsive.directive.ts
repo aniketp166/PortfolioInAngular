@@ -9,19 +9,19 @@ export class ResponsiveDirective {
     private element: ElementRef,
     private breakpointObserver: BreakpointObserver
   ) {
-    this.breakpointObserver
-      .observe([Breakpoints.HandsetPortrait, Breakpoints.WebLandscape])
-      .subscribe({
-        next: (result: any) => {
-          for (let breakpoint of Object.keys(result.breakpoints))
-            if (result.breakpoints[breakpoint]) {
-              if (breakpoint === Breakpoints.HandsetPortrait)
-                this.element.nativeElement.classList.remove('pc');
+    // this.breakpointObserver
+    //   .observe([Breakpoints.HandsetPortrait, Breakpoints.WebLandscape])
+    //   .subscribe({
+    //     next: (result: any) => {
+    //       for (let breakpoint of Object.keys(result.breakpoints))
+    //         if (result.breakpoints[breakpoint]) {
+    //           if (breakpoint === Breakpoints.HandsetPortrait)
+    //             this.element.nativeElement.classList.remove('pc');
 
-              if (breakpoint === Breakpoints.WebLandscape)
-                this.element.nativeElement.classList.add('pc');
-            }
-        },
-      });
+    //           if (breakpoint === Breakpoints.WebLandscape)
+    //             this.element.nativeElement.classList.add('pc');
+    //         }
+    //     },
+    //   });
   }
 }
