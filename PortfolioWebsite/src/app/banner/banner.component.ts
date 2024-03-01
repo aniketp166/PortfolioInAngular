@@ -7,15 +7,8 @@ import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
   styleUrls: ['./banner.component.css'],
 })
 export class BannerComponent implements OnInit {
-  //constructor(private breakpointObserver: BreakpointObserver) {}
 
   ngOnInit(): void {
-    // this.breakpointObserver
-    //   .observe([Breakpoints.HandsetPortrait, Breakpoints.WebLandscape])
-    //   .subscribe({
-    //     next: (result: any) => {
-    //       console.log(result);
-    //     },
-    //   });
+
   }
 }

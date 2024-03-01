@@ -26,6 +26,15 @@ export class WorkExperienceComponent implements OnInit {
         // 'Worked on different technologies such as (Dotnet, C++, Java)',
       ],
     },
+    {
+      role: 'Founder, Web Developer',
+      company: ' UPSC Planner, MPSC Planner',
+      duration: 'Apr 2020 – Mar 2022',
+      description: [
+        // 'Worked with multiple teams to develop desktop and web applications',
+        // 'Worked on different technologies such as (Dotnet, C++, Java)',
+      ],
+    },
   ];
   constructor() {}
 

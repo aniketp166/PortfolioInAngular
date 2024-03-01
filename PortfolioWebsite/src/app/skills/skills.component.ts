@@ -14,7 +14,7 @@ export class SkillsComponent implements OnInit {
       rating: 60,
     },
     {
-      name: 'ASP.NET Core, Dapper, ',
+      name: 'ASP.NET Core, Dapper, MS Server',
       level: 'Intermidiate',
       rating: 60,
     },

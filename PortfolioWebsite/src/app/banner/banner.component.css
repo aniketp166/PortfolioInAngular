@@ -10,16 +10,6 @@
     grid-template-columns: 1fr;
 }
 
-.title {
-    font-size: 4rem;
-    padding: 0 0 2rem;
-    text-align: center;
-    font-style: italic;
-    color: var(--green);
-    text-decoration: underline;
-    font-family: 'Roboto Condensed', sans-serif;
-}
-
 .name {
     grid-row: 3/4;
     padding: 2rem;
@@ -32,17 +22,17 @@
 
 .name span:nth-of-type(1) span {
     font-size: 3rem;
-    color: var(--green);
+    color: var(--orange);
 }
 
 .name span:nth-of-type(2) {
     display: inline-block;
-    color: var(--green);
+    color: var(--orange);
     font-size: 4rem;
     font-weight: bold;
     padding: 10px 0;
     letter-spacing: 8px;
-    text-shadow: 10px 8px 10px var(--black);
+    text-shadow: 10px 8px 10px #212121;
 }
 
 .profile {
@@ -55,11 +45,11 @@
 }
 
 .profile .profile-bg {
-    height: 75%;
+    height: 60%;
     width: 100%;
     bottom: 0%;
     position: absolute;
-    background-color: #69F0AE;
+    background-color:var(--orange);
     clip-path: inset(0 round 50% 0 0);
 }
 

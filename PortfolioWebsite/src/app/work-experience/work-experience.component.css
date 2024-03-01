@@ -14,7 +14,7 @@ ul li:has(ul) {
 }
 
 ul li h2 {
-    color: var(--green);
+    color: var(--orange);
 }
 
 ul li h4 {
@@ -37,7 +37,7 @@ ul li h4 {
     top: 5px;
     border-radius: 50%;
     z-index: 2;
-    background-color: var(--green);
+    background-color: var(--orange);
 }
 
 :host.pc ul li:has(ul)::after {

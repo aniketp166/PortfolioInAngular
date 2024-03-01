@@ -15,12 +15,11 @@ export class PersonalInformationComponent implements OnInit {
   ];
 
   aboutMe: string[] = [
-    'Hi, I am a Software Engineer with 1 years of experience in software industry.',
-    // 'Worked as Head of Product Management in Google for various technologies (Google Search Engine, Google Drive, Chrome Browser).',
-    // 'Delivered all product withing deadlines. Always eager to learn new technologies.',
-    'Currently, working as Software Developer at Flipick Pvt Ltd',
+    'Hi, I am a Software Engineer with 1 years of experience in the software industry.',
+    'Currently, working as a Software Developer at Flipick Pvt Ltd',
+    'Building <a href="https://mpscplanner.com" target="_blank" rel="noopener noreferrer">mpscplanner.com</a> and <a href="https://upscplanner.com" target="_blank" rel="noopener noreferrer">upscplanner.com</a>'
   ];
-
+  
   constructor() {}
 
   ngOnInit(): void {}

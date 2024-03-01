@@ -11,9 +11,11 @@
         </tbody>
     </table>
 
-    <section>
+    <section class="personal-info-section">
         <p *ngFor="let sentence of aboutMe">
-            {{sentence}}
+            <span [innerHTML]="sentence"></span>
         </p>
     </section>
+
+
 </div>
