@@ -2,7 +2,6 @@
     <h1 class="title">
         <span>Personal Information</span>
     </h1>
-
     <table>
         <tbody>
             <tr *ngFor="let row of myData">
@@ -10,12 +9,17 @@
             </tr>
         </tbody>
     </table>
-
     <section class="personal-info-section">
-        <p *ngFor="let sentence of aboutMe">
-            <span [innerHTML]="sentence"></span>
+        <p>
+            <span>Hi, I am a Software Engineer with 1 years of experience in the software industry.</span>
+        </p>
+        <p>
+            <span>Currently, working as a Software Developer at Flipick Pvt Ltd.</span>
+        </p>
+        <p>
+            <span>Building <a href="https://mpscplanner.com" target="_blank">mpscplanner.com</a> and
+                <a href="https://upscplanner.com" target="_blank">upscplanner.com</a></span>
         </p>
     </section>
-
 
 </div>
